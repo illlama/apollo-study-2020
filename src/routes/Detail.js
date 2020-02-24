@@ -71,7 +71,7 @@ export default () => {
       <Column>
         <Title>
           {loading
-            ? 'Loading ...'
+            ? 'Loading !!!'
             : `${data.movie.title} ${data.movie.isLiked ? '💘' : '👎🏻'}`}
         </Title>
         <Subtitle>
