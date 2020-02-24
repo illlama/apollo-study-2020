@@ -51,8 +51,8 @@ const GET_MOVIES = gql`
 const Movies = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 25px;
-  width: 70%;
+  grid-gap: 35px;
+  width: 60%;
   position: relative;
   top: -50px;
 `;
